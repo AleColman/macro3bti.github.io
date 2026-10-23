@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <circle cx="120" cy="120" r="110" fill="#FAF5EE" stroke="#F3D2C1" stroke-width="4"/>
+  <!-- Head & Hair (neat bob cut) -->
+  <path d="M74 95 C74 45 166 45 166 95 C166 125 160 145 155 150 C150 115 145 80 120 80 C95 80 90 115 85 150 C80 145 74 125 74 95 Z" fill="#2C332D"/>
+  <circle cx="120" cy="100" r="40" fill="#F7D6C8"/>
+  <!-- Eyes -->
+  <circle cx="105" cy="98" r="3.5" fill="#2C332D"/>
+  <circle cx="135" cy="98" r="3.5" fill="#2C332D"/>
+  <!-- Glasses -->
+  <rect x="94" y="90" width="22" height="16" rx="4" fill="none" stroke="#5E8C6A" stroke-width="2.5"/>
+  <rect x="124" y="90" width="22" height="16" rx="4" fill="none" stroke="#5E8C6A" stroke-width="2.5"/>
+  <line x1="116" y1="98" x2="124" y2="98" stroke="#5E8C6A" stroke-width="2.5"/>
+  <!-- Smile -->
+  <path d="M112 118 Q120 125 128 118" stroke="#E07A5F" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Torso -->
+  <path d="M60 215 C60 162 85 152 120 152 C155 152 180 162 180 215 Z" fill="#88AF92"/>
+</svg>

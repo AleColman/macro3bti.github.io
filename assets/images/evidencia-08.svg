@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ev8g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2F6F2" />
+      <stop offset="100%" stop-color="#E2EBE1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#ev8g)" />
+  
+  <g transform="translate(60, 50)">
+    <rect width="480" height="300" rx="16" fill="#FFFFFF" stroke="#E6E8E2" stroke-width="2" filter="drop-shadow(0 12px 24px rgba(45,49,46,0.08))" />
+    
+    <!-- Top badge -->
+    <rect width="480" height="42" rx="16" fill="#FBFBF9" />
+    <text x="35" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#3F6349">RELEASE V1.0 · PAQUETE DE ENTREGA FINAL</text>
+    
+    <!-- Left product mockup representation -->
+    <g transform="translate(35, 65)">
+      <rect width="240" height="150" rx="10" fill="#2C332D" />
+      <rect x="15" y="15" width="210" height="120" rx="6" fill="#FAFAF7" />
+      
+      <!-- App inside screen -->
+      <rect x="25" y="25" width="80" height="12" rx="6" fill="#5E8C6A" />
+      <rect x="25" y="45" width="190" height="8" rx="4" fill="#DCD7E9" />
+      <rect x="25" y="60" width="55" height="45" rx="6" fill="#E8ECE4" />
+      <rect x="90" y="60" width="55" height="45" rx="6" fill="#F7D6C8" />
+      <rect x="155" y="60" width="55" height="45" rx="6" fill="#E8E5F2" />
+      <rect x="25" y="115" width="70" height="16" rx="8" fill="#E07A5F" />
+    </g>
+    
+    <!-- Right checklist of deliverables -->
+    <g transform="translate(295, 65)">
+      <rect width="150" height="150" rx="10" fill="#F8FAF6" stroke="#E6E8E2" />
+      <text x="15" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C332D">Entregables Listos:</text>
+      
+      <circle cx="22" cy="50" r="7" fill="#5E8C6A" />
+      <path d="M19 50 L21 52 L25 48" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+      <text x="35" y="54" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2C332D">Código Fuente</text>
+      
+      <circle cx="22" cy="78" r="7" fill="#5E8C6A" />
+      <path d="M19 78 L21 80 L25 76" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+      <text x="35" y="82" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2C332D">Manual Técnico</text>
+      
+      <circle cx="22" cy="106" r="7" fill="#5E8C6A" />
+      <path d="M19 106 L21 108 L25 104" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+      <text x="35" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2C332D">Guía de Usuario</text>
+      
+      <circle cx="22" cy="134" r="7" fill="#5E8C6A" />
+      <path d="M19 134 L21 136 L25 132" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+      <text x="35" y="138" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#2C332D">Base de Datos</text>
+    </g>
+    
+    <!-- Bottom success bar -->
+    <g transform="translate(35, 230)">
+      <rect width="410" height="45" rx="10" fill="#EBF4EE" stroke="#A8C3A0" stroke-width="1" />
+      <circle cx="25" cy="22" r="12" fill="#5E8C6A" />
+      <path d="M20 22 L23 25 L29 19" stroke="#FFFFFF" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <text x="48" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#2C332D">Macroproyecto 3BTI Finalizado con Éxito</text>
+      <text x="48" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#636B66">Todos los objetivos cumplidos según los estándares del Bachillerato Técnico.</text>
+    </g>
+  </g>
+</svg>

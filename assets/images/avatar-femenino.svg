@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Fondo circular suave -->
+  <circle cx="120" cy="120" r="116" fill="#FDF3EE" stroke="#F7D6C8" stroke-width="4"/>
+  
+  <!-- Cabello largo posterior -->
+  <path d="M68 112 C64 50 176 50 172 112 C178 172 165 194 154 195 C148 150 146 102 120 102 C94 102 92 150 86 195 C75 194 62 172 68 112 Z" fill="#3D3242"/>
+  
+  <!-- Cuello -->
+  <rect x="110" y="132" width="20" height="26" rx="6" fill="#F7D6C8"/>
+  
+  <!-- Cabeza / Rostro -->
+  <circle cx="120" cy="98" r="40" fill="#F7D6C8"/>
+  
+  <!-- Orejas y pendientes -->
+  <circle cx="78" cy="102" r="7" fill="#F7D6C8"/>
+  <circle cx="162" cy="102" r="7" fill="#F7D6C8"/>
+  <circle cx="78" cy="105" r="2.5" fill="#E07A5F"/>
+  <circle cx="162" cy="105" r="2.5" fill="#E07A5F"/>
+  
+  <!-- Flequillo y cabello frontal -->
+  <path d="M76 94 C76 48 164 48 164 94 C150 72 136 68 120 68 C104 68 90 72 76 94 Z" fill="#3D3242"/>
+  <path d="M80 88 C94 72 114 74 122 84 C112 80 94 82 86 92 Z" fill="#3D3242"/>
+  
+  <!-- Ojos y pestañas -->
+  <circle cx="105" cy="100" r="3.8" fill="#2C332D"/>
+  <circle cx="135" cy="100" r="3.8" fill="#2C332D"/>
+  <path d="M100 95 L104 98" stroke="#2C332D" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M140 95 L136 98" stroke="#2C332D" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M99 90 Q105 87 111 90" stroke="#3D3242" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M129 90 Q135 87 141 90" stroke="#3D3242" stroke-width="2" stroke-linecap="round" fill="none"/>
+  
+  <!-- Rubor suave en mejillas -->
+  <circle cx="97" cy="108" r="6" fill="#F3B3A6" opacity="0.45"/>
+  <circle cx="143" cy="108" r="6" fill="#F3B3A6" opacity="0.45"/>
+  
+  <!-- Sonrisa amigable -->
+  <path d="M110 117 Q120 125 130 117" stroke="#E07A5F" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Torso (Blusa lavanda temática) -->
+  <path d="M52 230 C52 170 82 152 120 152 C158 152 188 170 188 230 Z" fill="#7B749E"/>
+  
+  <!-- Cuello de blusa -->
+  <path d="M102 152 Q120 174 138 152" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="laptopGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#343B35" />
+      <stop offset="100%" stop-color="#222723" />
+    </linearGradient>
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAFAF7" />
+      <stop offset="100%" stop-color="#F2F4EF" />
+    </linearGradient>
+    <filter id="lapShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#2D332D" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <!-- Laptop Back/Body -->
+  <g transform="translate(60, 40)" filter="url(#lapShadow)">
+    <!-- Screen Lid -->
+    <rect width="480" height="300" rx="16" fill="url(#laptopGrad)" />
+    <!-- Web Camera -->
+    <circle cx="240" cy="12" r="3" fill="#636B66" />
+    
+    <!-- Screen Display -->
+    <rect x="18" y="24" width="444" height="260" rx="8" fill="url(#screenGrad)" />
+    
+    <!-- Inside Web App Mockup -->
+    <!-- App Navbar -->
+    <rect x="18" y="24" width="444" height="36" rx="8" fill="#FFFFFF" />
+    <circle cx="36" cy="42" r="5" fill="#5E8C6A" />
+    <text x="50" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#2C332D">Macroproyecto 3BTI</text>
+    
+    <rect x="260" y="38" width="30" height="8" rx="4" fill="#DCD7E9" />
+    <rect x="300" y="38" width="30" height="8" rx="4" fill="#DCD7E9" />
+    <rect x="340" y="38" width="30" height="8" rx="4" fill="#DCD7E9" />
+    <rect x="380" y="34" width="65" height="16" rx="8" fill="#5E8C6A" />
+    <text x="412" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">Acceso</text>
+
+    <!-- App Hero Banner -->
+    <rect x="32" y="72" width="416" height="90" rx="10" fill="#EBF4EE" />
+    <text x="50" y="98" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" fill="#2C332D">Sistema Integrado de Gestión Escolar</text>
+    <text x="50" y="116" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#636B66">Desarrollado integralmente por estudiantes del 3.º BTI · Promoción 2026</text>
+    
+    <rect x="50" y="130" width="75" height="18" rx="9" fill="#5E8C6A" />
+    <text x="87" y="142" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">Explorar Módulos</text>
+    
+    <!-- 3 App Feature Cards -->
+    <g transform="translate(32, 172)">
+      <!-- Card 1 -->
+      <rect width="130" height="95" rx="8" fill="#FFFFFF" stroke="#E6E8E2" />
+      <circle cx="24" cy="24" r="10" fill="#EBF4EE" />
+      <path d="M20 24 L23 27 L28 21" stroke="#5E8C6A" stroke-width="2" fill="none"/>
+      <text x="42" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#2C332D">Base de Datos</text>
+      <rect x="15" y="44" width="100" height="5" rx="2.5" fill="#E8ECE4" />
+      <rect x="15" y="54" width="85" height="5" rx="2.5" fill="#E8ECE4" />
+      <rect x="15" y="70" width="45" height="14" rx="7" fill="#E8ECE4" />
+      <text x="37" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="700" fill="#5E8C6A" text-anchor="middle">MySQL</text>
+
+      <!-- Card 2 -->
+      <rect x="143" width="130" height="95" rx="8" fill="#FFFFFF" stroke="#E6E8E2" />
+      <circle cx="167" cy="24" r="10" fill="#FDF3EE" />
+      <text x="185" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#2C332D">Frontend UI</text>
+      <rect x="158" y="44" width="100" height="5" rx="2.5" fill="#F7D6C8" />
+      <rect x="158" y="54" width="80" height="5" rx="2.5" fill="#F7D6C8" />
+      <rect x="158" y="70" width="55" height="14" rx="7" fill="#F7D6C8" />
+      <text x="185" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="700" fill="#E07A5F" text-anchor="middle">HTML5/JS</text>
+
+      <!-- Card 3 -->
+      <rect x="286" width="130" height="95" rx="8" fill="#FFFFFF" stroke="#E6E8E2" />
+      <circle cx="310" cy="24" r="10" fill="#F4F2F9" />
+      <text x="328" y="27" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="700" fill="#2C332D">Seguridad</text>
+      <rect x="301" y="44" width="100" height="5" rx="2.5" fill="#DCD7E9" />
+      <rect x="301" y="54" width="75" height="5" rx="2.5" fill="#DCD7E9" />
+      <rect x="301" y="70" width="55" height="14" rx="7" fill="#DCD7E9" />
+      <text x="328" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="700" fill="#7B749E" text-anchor="middle">Roles/Auth</text>
+    </g>
+
+    <!-- Laptop Base / Keyboard deck -->
+    <path d="M-40 300 L520 300 L550 316 L-70 316 Z" fill="#E2E5DF" />
+    <rect x="190" y="302" width="100" height="8" rx="4" fill="#CBD0C8" />
+    <!-- Laptop Bottom Lip -->
+    <rect x="-70" y="316" width="620" height="6" rx="3" fill="#9BA297" />
+  </g>
+
+  <!-- Tablet Floating alongside -->
+  <g transform="translate(470, 160)" filter="url(#lapShadow)">
+    <rect width="170" height="230" rx="16" fill="#2C332D" />
+    <circle cx="85" cy="12" r="3" fill="#636B66" />
+    <rect x="10" y="24" width="150" height="192" rx="10" fill="#FAFAF7" />
+    
+    <!-- Tablet Content -->
+    <rect x="22" y="38" width="70" height="8" rx="4" fill="#5E8C6A" />
+    <rect x="22" y="54" width="126" height="40" rx="6" fill="#FAF5EE" />
+    <circle cx="40" cy="74" r="10" fill="#E07A5F" />
+    
+    <rect x="22" y="105" width="126" height="30" rx="6" fill="#F8FAF6" stroke="#E6E8E2" />
+    <rect x="32" y="117" width="50" height="6" rx="3" fill="#5E8C6A" />
+    
+    <rect x="22" y="145" width="126" height="30" rx="6" fill="#F8FAF6" stroke="#E6E8E2" />
+    <rect x="32" y="157" width="65" height="6" rx="3" fill="#7B749E" />
+    
+    <rect x="22" y="185" width="126" height="20" rx="10" fill="#5E8C6A" />
+    <text x="85" y="198" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" text-anchor="middle">Vista Responsive OK</text>
+  </g>
+</svg>

@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnología para Todos | Macroproyecto 3.° BTI - Colegio Gimnasio del Saber</title>
+  
+  <!-- SEO Básico y Metadatos -->
+  <meta name="description" content="Macroproyecto sociocomunitario de Aprendizaje-Servicio 'Tecnología para Todos', desarrollado por los 20 alumnos del 3.° BTI del Colegio Gimnasio del Saber en beneficio de la Escuela Básica N.° 6711 Madre Teresa de Calcuta (CDE).">
+  <meta name="keywords" content="Tecnología para Todos, Macroproyecto, 3BTI, Bachillerato Técnico en Informática, Gimnasio del Saber, Ciudad del Este, Climatización, Aprendizaje-Servicio, ANDE, Madre Teresa de Calcuta">
+  <meta name="author" content="Estudiantes del 3.° BTI - Colegio Gimnasio del Saber">
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Macroproyecto: Tecnología para Todos | 3.° BTI">
+  <meta property="og:description" content="Climatización escolar, adecuación de infraestructura eléctrica y desarrollo web por los alumnos del 3.° BTI - Colegio Gimnasio del Saber.">
+  <meta property="og:image" content="assets/images/portada.jpeg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo-sinfondo.png">
+
+  <!-- Tipografía Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos -->
+  <link rel="stylesheet" href="css/style.css?v=2.2">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER / NAVBAR STICKY
+       ====================================================================== -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="#inicio" class="brand-logo" aria-label="Ir al inicio de Macroproyecto Tecnología para Todos">
+        <img src="assets/images/logo-sinfondo.png" alt="Logo Colegio Gimnasio del Saber" class="brand-logo-img" width="44" height="44">
+        <div class="brand-text">
+          <span class="brand-title">Tecnología para Todos</span>
+          <span class="brand-subtitle">3.° BTI · Gimnasio del Saber 2026</span>
+        </div>
+      </a>
+
+      <!-- Botón Hamburguesa Móvil -->
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir o cerrar menú de navegación" aria-expanded="false" aria-controls="navMenu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <!-- Menú de Navegación -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#macroproyecto" class="nav-link">Macroproyecto</a></li>
+          <li><a href="#fases" class="nav-link">Proceso</a></li>
+          <li><a href="#evidencias" class="nav-link">Evidencias</a></li>
+          <li><a href="#participantes" class="nav-link">Participantes</a></li>
+          <li><a href="#resultado" class="nav-link">Resultados</a></li>
+          <li><a href="#contacto" class="nav-cta">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <!-- SECCIÓN 1: INICIO / HERO -->
+    <section id="inicio" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge-tag">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+            APRENDIZAJE-SERVICIO · 3.° BTI 2026
+          </span>
+
+          <h1 class="hero-title">
+            Tecnología para <span class="highlight-text">Todos</span>
+          </h1>
+
+          <p class="hero-description">
+            Proyecto socioeducativo desarrollado por los 20 alumnos del <strong>Tercer Curso del Bachillerato Técnico en Informática</strong> del <strong>Colegio Gimnasio del Saber</strong> (Ciudad del Este). Articulamos autogestión cooperativa, adecuación eléctrica reglamentaria, donación de climatización y desarrollo web en favor de la <strong>Escuela Básica N.º 6711 «Madre Teresa de Calcuta»</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#macroproyecto" class="btn btn-primary">
+              <span>Conocer el macroproyecto</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="#fases" class="btn btn-secondary">
+              <span>Ver cronograma y fases</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-feature-tags">
+            <div class="feature-pill">
+              <span class="feature-pill-dot"></span>
+              <span>Aprendizaje-Servicio (ApS)</span>
+            </div>
+            <div class="feature-pill">
+              <span class="feature-pill-dot" style="background-color: var(--peach-primary);"></span>
+              <span>Climatización e Infraestructura ANDE</span>
+            </div>
+            <div class="feature-pill">
+              <span class="feature-pill-dot" style="background-color: var(--lavender-primary);"></span>
+              <span>Desarrollo Web Frontend</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-visual-wrapper">
+            <img src="assets/images/portada.jpeg" alt="Alumnos del 3.° BTI del Colegio Gimnasio del Saber junto a la donación para la Escuela Madre Teresa de Calcuta" class="hero-cover-img" width="560" height="420">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: INDICADORES DEL PROYECTO -->
+    <section id="indicadores" class="stats-section" aria-label="Indicadores clave del proyecto">
+      <div class="container">
+        <div class="stats-grid" id="statsGrid">
+          <!-- Renderizado dinámico desde js/script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: SECCIÓN "MACROPROYECTO" -->
+    <section id="macroproyecto" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag badge-peach">Fundamentación</span>
+          <h2 class="section-title">El Macroproyecto</h2>
+          <p class="section-subtitle">
+            Una propuesta pedagógica interdisciplinaria donde articulamos Informática, Algorítmica, Matemática Aplicada y Administración Financiera para dar respuesta a una necesidad real comunitaria en Ciudad del Este.
+          </p>
+        </div>
+
+        <!-- ¿Qué es? y ¿Por qué lo realizamos? -->
+        <div class="macro-grid-top">
+          <div class="macro-card-story fade-in-up">
+            <div>
+              <div class="macro-card-header">
+                <div class="macro-card-icon">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </div>
+                <h3 class="macro-card-title">¿Qué es «Tecnología para Todos»?</h3>
+              </div>
+              <p class="macro-card-text">
+                Es la iniciativa central del 3.º BTI fundamentada en la metodología de <strong>Aprendizaje-Servicio Solidario (ApS)</strong>. Tras diagnosticar el aula de la Escuela Básica N.º 6711 «Madre Teresa de Calcuta» del km 9 de Ciudad del Este, nos propusimos erradicar la fatiga térmica de los educandos mediante la donación e instalación de equipos de aire acondicionado, complementado con una línea eléctrica protegida y este portal web de memoria técnica.
+              </p>
+            </div>
+            <div class="macro-card-highlight">
+              Beneficiarios directos: Alumnos y docentes de la Escuela Básica N.º 6711.
+            </div>
+          </div>
+
+          <div class="macro-card-story fade-in-up">
+            <div>
+              <div class="macro-card-header">
+                <div class="macro-card-icon icon-peach">
+                  <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                  </svg>
+                </div>
+                <h3 class="macro-card-title">¿Por qué y cómo lo realizamos?</h3>
+              </div>
+              <p class="macro-card-text">
+                En nuestro país las temperaturas extremas deterioran la atención y el rendimiento cognitivo. El proyecto no dependió de fondos externos: fue solventado al <strong>100% mediante autogestión</strong> con una gran Pizzeada Solidaria organizada por los alumnos. Así unimos el rigor técnico de la normativa ANDE con el compromiso cívico y los valores humanos de cooperación y solidaridad.
+              </p>
+            </div>
+            <div class="macro-card-highlight" style="border-left-color: var(--peach-primary);">
+              Autogestión total: Gs. 3.950.000 generados y administrados cooperativamente.
+            </div>
+          </div>
+        </div>
+
+        <!-- Ficha Técnica Resumen -->
+        <div class="project-brief-card fade-in-up">
+          <div class="brief-col">
+            <span class="brief-title">Institución Responsable</span>
+            <span class="brief-data">Colegio Gimnasio del Saber (CDE)</span>
+          </div>
+          <div class="brief-col">
+            <span class="brief-title">Institución Beneficiaria</span>
+            <span class="brief-data">Escuela Básica N.º 6711 «Madre Teresa de Calcuta» (Km 9)</span>
+          </div>
+          <div class="brief-col">
+            <span class="brief-title">Presupuesto Ejecutado</span>
+            <span class="brief-data">Gs. 3.950.000 (Financiado con Pizzeada Solidaria)</span>
+          </div>
+          <div class="brief-col">
+            <span class="brief-title">Áreas Involucradas</span>
+            <span class="brief-data">Informática · Algorítmica · Matemática · Adm. Financiera</span>
+          </div>
+        </div>
+
+        <!-- Objetivos Generales -->
+        <div class="general-goal-card fade-in-up">
+          <div class="general-goal-badge">
+            <svg style="width: 34px; height: 34px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <circle cx="12" cy="12" r="6"></circle>
+              <circle cx="12" cy="12" r="2"></circle>
+            </svg>
+          </div>
+          <div>
+            <div class="general-goal-tag">Objetivos Generales del Proyecto</div>
+            <div class="general-goal-text">
+              1. Dotar de un sistema de climatización y una línea de alimentación eléctrica segura a la Escuela Básica N.º 6711 «Madre Teresa de Calcuta», complementado con conocimientos y capacitación para su uso eficiente.<br>
+              2. Promover e incentivar los valores humanos de solidaridad, cooperación y responsabilidad social en los alumnos del 3.º BTI.
+            </div>
+          </div>
+        </div>
+
+        <!-- Objetivos Específicos -->
+        <div class="specific-goals-header">
+          <h3 class="specific-goals-title">Objetivos Específicos Oficiales</h3>
+        </div>
+
+        <div class="specific-goals-grid">
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num">01 · INFRAESTRUCTURA ELÉCTRICA</div>
+            <h4 class="goal-card-title">Línea de Alimentación Segura</h4>
+            <p class="goal-card-desc">Efectuar el diagnóstico e instalar una línea independiente, protección termomagnética de 16 A y conexión a tierra conforme a las normas ANDE.</p>
+          </div>
+
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num" style="color: var(--peach-primary);">02 · CLIMATIZACIÓN</div>
+            <h4 class="goal-card-title">Montaje y Puesta en Marcha</h4>
+            <p class="goal-card-desc">Efectuar el montaje, fijación, interconexión y calibración del equipo de aire acondicionado tipo Split.</p>
+          </div>
+
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num" style="color: var(--lavender-primary);">03 · INFORMÁTICA Y SOFTWARE</div>
+            <h4 class="goal-card-title">Plataforma Web Frontend</h4>
+            <p class="goal-card-desc">Diseñar, programar y desplegar el sitio web interactivo y responsivo con HTML5 semántico, CSS3 y JavaScript para digitalizar la memoria y divulgación técnica.</p>
+          </div>
+
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num">04 · CAPACITACIÓN Y CONCIENCIA</div>
+            <h4 class="goal-card-title">Eficiencia Energética</h4>
+            <p class="goal-card-desc">Impartir charlas sobre el uso eficiente del equipo (consigna a 24 °C, ambientes cerrados y limpieza de filtros de aire).</p>
+          </div>
+
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num" style="color: var(--peach-primary);">05 · AUTOGESTIÓN Y COOPERACIÓN</div>
+            <h4 class="goal-card-title">Pizzeada Solidaria</h4>
+            <p class="goal-card-desc">Ejecutar actividades de administración financiera y venta comunitaria para solventar el 100% de los costos operativos y de adquisición del equipamiento.</p>
+          </div>
+
+          <div class="goal-card fade-in-up">
+            <div class="goal-card-num" style="color: var(--lavender-primary);">06 · DEFENSA</div>
+            <h4 class="goal-card-title">Socialización y Memoria Final</h4>
+            <p class="goal-card-desc">Redactar el informe de investigación, documentar el manual de usuario y defender el macroproyecto ante el tribunal docente evaluador.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: FASES Y PROCESO (TIMELINE INTERACTIVA) -->
+    <section id="fases" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag badge-lavender">Cronograma Oficial 2026</span>
+          <h2 class="section-title">Fases y Proceso del Proyecto</h2>
+          <p class="section-subtitle">
+            Conoce el cronograma de actividades presenciales y a distancia ejecutadas rigurosamente entre abril y octubre del año 2026.
+          </p>
+        </div>
+
+        <!-- Timeline de las Fases -->
+        <div class="phases-timeline" id="phasesTimeline">
+          <!-- Renderizado dinámico desde js/script.js -->
+        </div>
+
+        <!-- Subsección: Así fue nuestro proceso (Workflow Path) -->
+        <div class="workflow-section fade-in-up">
+          <div class="workflow-header">
+            <h3 class="workflow-title">Ruta Metodológica de Aprendizaje-Servicio</h3>
+            <p class="workflow-desc">De la identificación de la problemática a la climatización y memoria digital</p>
+          </div>
+
+          <div class="workflow-path">
+            <div class="workflow-step">
+              <span class="workflow-step-num">1</span>
+              <span class="workflow-step-name">Diagnóstico</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step">
+              <span class="workflow-step-num">2</span>
+              <span class="workflow-step-name">Autogestión</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step">
+              <span class="workflow-step-num">3</span>
+              <span class="workflow-step-name">Infraestructura</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step">
+              <span class="workflow-step-num">4</span>
+              <span class="workflow-step-name">Montaje Split</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step">
+              <span class="workflow-step-num">5</span>
+              <span class="workflow-step-name">Capacitación</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step">
+              <span class="workflow-step-num">6</span>
+              <span class="workflow-step-name">Desarrollo Web</span>
+            </div>
+            <div class="workflow-step-arrow">→</div>
+
+            <div class="workflow-step" style="background-color: var(--sage-light); border-color: var(--sage-border);">
+              <span class="workflow-step-num" style="background-color: var(--sage-primary); color: #fff;">✓</span>
+              <span class="workflow-step-name" style="color: var(--sage-primary);">Defensa 3BTI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: EVIDENCIAS DEL PROYECTO (GALERÍA & LIGHTBOX) -->
+    <section id="evidencias" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Registro Fotográfico Real</span>
+          <h2 class="section-title">Evidencias del Macroproyecto</h2>
+          <p class="section-subtitle">
+            Fotografías auténticas de la campaña de recaudación (pizzeada solidaria), entrega del equipamiento, festejo con los niños de la Escuela N.º 6711 y trabajo del 3.° BTI.
+          </p>
+        </div>
+
+        <!-- Filtros de categoría -->
+        <div class="filter-wrapper" role="tablist" aria-label="Filtrar evidencias por categoría">
+          <button class="filter-btn active" data-filter="todos" type="button">Todos</button>
+          <button class="filter-btn" data-filter="donacion" type="button">Donación y Climatización</button>
+          <button class="filter-btn" data-filter="pizzeada" type="button">Pizzeada Solidaria</button>
+          <button class="filter-btn" data-filter="festejo" type="button">Comunidad y Festejo</button>
+        </div>
+
+        <!-- Grid de Evidencias -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Renderizado dinámico desde js/script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6: VALORES Y TRABAJO EN EQUIPO -->
+    <section class="section section-alt" aria-labelledby="collabSectionTitle">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag badge-peach">Competencias y Valores</span>
+          <h2 class="section-title" id="collabSectionTitle">Valores Institucionales en Acción</h2>
+          <p class="section-subtitle">
+            Competencias desarrolladas según el programa oficial del Bachillerato Técnico en Informática:
+          </p>
+        </div>
+
+        <div class="collab-grid">
+          <div class="collab-card fade-in-up">
+            <div class="collab-icon-box">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="collab-title">Solidaridad</h3>
+            <p class="collab-desc">Sensibilidad ante la carencia de climatización en escuelas hermanas, movilizando esfuerzos para mejorar las condiciones de estudio.</p>
+          </div>
+
+          <div class="collab-card fade-in-up">
+            <div class="collab-icon-box">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="collab-title">Cooperación</h3>
+            <p class="collab-desc">Unión de los 20 alumnos para amasar, preparar y vender pizzas, recaudando con éxito los Gs. 3.950.000 necesarios.</p>
+          </div>
+
+          <div class="collab-card fade-in-up">
+            <div class="collab-icon-box">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="collab-title">Responsabilidad Técnica</h3>
+            <p class="collab-desc">Aplicación estricta de las normas de seguridad de la ANDE: conductores antiflama de 2.5 mm², térmica de 16 A y puesta a tierra.</p>
+          </div>
+
+          <div class="collab-card fade-in-up">
+            <div class="collab-icon-box">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="collab-title">Innovación Digital</h3>
+            <p class="collab-desc">Desarrollo de una plataforma web accesible, responsiva y semántica en HTML5, CSS y JavaScript para socializar el proyecto.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 7: PARTICIPANTES / NUESTRO EQUIPO -->
+    <section id="participantes" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag badge-lavender">Nómina Oficial</span>
+          <h2 class="section-title">Nómina de los 20 Alumnos del 3.° BTI</h2>
+          <p class="section-subtitle">
+            Todos los participantes del <strong>3.er Curso de Bachillerato Técnico en Informática</strong> formaron parte del equipo de desarrollo mediante metodologías ágiles de trabajo:
+          </p>
+        </div>
+
+        <div class="team-grid" id="teamGrid">
+          <!-- Renderizado dinámico desde js/script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 8: RESULTADO FINAL -->
+    <section id="resultado" class="section section-alt" aria-labelledby="resultSectionTitle">
+      <div class="container">
+        <div class="result-box fade-in-up">
+          <div class="result-text-col">
+            <span class="badge-tag result-tag">Logro Alcanzado</span>
+            <h2 class="result-title" id="resultSectionTitle">Resultados y Rendición de Cuentas</h2>
+            <p class="result-desc">
+              El macroproyecto «Tecnología para Todos» concluyó con éxito en todos sus ejes: confort ambiental restaurado en la sala de clases, seguridad eléctrica garantizada.
+            </p>
+
+            <div class="result-features">
+              <div class="result-feature-item">
+                <span class="result-feature-check">✓</span>
+                <span><strong>Climatización:</strong> Sala equipada con unidad acondicionadora tipo Split de alta eficiencia.</span>
+              </div>
+              <div class="result-feature-item">
+                <span class="result-feature-check">✓</span>
+                <span><strong>Instalación:</strong> Línea exclusiva con cable de 2.5 mm², disyuntor termomagnético de 16 A y puesta a tierra.</span>
+              </div>
+              <div class="result-feature-item">
+                <span class="result-feature-check">✓</span>
+                <span><strong>Sostenibilidad:</strong> Charlas a los docentes y alumnos para operar a 24 °C y limpiar filtros quincenalmente.</span>
+              </div>
+              <div class="result-feature-item">
+                <span class="result-feature-check">✓</span>
+                <span><strong>Transparencia:</strong> Presupuesto total de Gs. 3.950.000 cubierto 100% con la Pizzeada Solidaria.</span>
+              </div>
+            </div>
+
+            <a href="#contacto" class="btn btn-accent">
+              <span>Contactar al equipo</span>
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+
+          <div class="result-mockup">
+            <img src="assets/images/portada.jpeg" alt="Fotografía final del grupo de estudiantes y profesores del Colegio Gimnasio del Saber" width="600" height="400" style="border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 9: CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-tag">Canales Oficiales</span>
+          <h2 class="section-title">Información Institucional de Contacto</h2>
+          <p class="section-subtitle">
+            Colegio Gimnasio del Saber · Bachillerato Técnico en Informática (Ciudad del Este, Paraguay).
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Tarjeta de Información Institucional -->
+          <div class="contact-card-info fade-in-up">
+            <div>
+              <h3 class="contact-info-title">Datos Institucionales</h3>
+              <p class="contact-info-desc">
+                Información oficial del Colegio Gimnasio del Saber y autoridades del Bachillerato Técnico en Informática.
+              </p>
+
+              <div class="contact-details-list">
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-detail-label">Institución Responsable</div>
+                    <div class="contact-detail-value">Colegio de E.M.D. Gimnasio del Saber (CDE)</div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                      <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-detail-label">Curso y Especialidad</div>
+                    <div class="contact-detail-value">Tercer Curso · Bachillerato Técnico en Informática (3.° BTI)</div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-detail-label">Dirección y Docentes Guía</div>
+                    <div class="contact-detail-value">
+                      Director: Abg. Matías Andrés González Vázquez<br>
+                      Prof. Ing. Alejandro Colman · Prof. Lic. Estela Paiva<br>
+                      Prof. Elva Rosa Cáceres · Prof. Engelberta Cardozo
+                    </div>
+                  </div>
+                </div>
+
+                <div class="contact-detail-item">
+                  <div class="contact-detail-icon">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-detail-label">Correo Institucional & Horario</div>
+                    <div class="contact-detail-value">info@gimnasiodelsaber.edu.py · 07:00 a 17:00 hs.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Redes Sociales / Enlaces Institucionales -->
+            <div class="social-links">
+              <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary); margin-right: 6px;">Canales:</span>
+              <a href="https://gimnasiodelsaber.edu.py" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Portal web institucional">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Instagram institucional">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <a href="#" class="social-btn" aria-label="Facebook institucional">
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Formulario de Mensaje / Retroalimentación -->
+          <div class="contact-form-card fade-in-up">
+            <h3 style="font-size: 1.35rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">Enviar Mensaje al Equipo del 3.° BTI</h3>
+            <p style="font-size: 0.92rem; color: var(--text-secondary); margin-bottom: 24px;">
+              Déjanos tus consultas, felicitaciones o sugerencias sobre el macroproyecto «Tecnología para Todos».
+            </p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="contactNombre" class="form-label">Nombre y Apellido *</label>
+                <input type="text" id="contactNombre" class="form-input" placeholder="Ej: Prof. María González" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Correo Electrónico *</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="ejemplo@correo.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMensaje" class="form-label">Mensaje o Consulta *</label>
+                <textarea id="contactMensaje" class="form-textarea" placeholder="Escribe aquí tu consulta o comentario para los alumnos del 3.° BTI..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Enviar mensaje</span>
+                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <img src="assets/images/logo-sinfondo.png" alt="Logo Colegio Gimnasio del Saber" class="brand-logo-img" width="44" height="44">
+            <div class="brand-text">
+              <span class="brand-title">Tecnología para Todos</span>
+              <span class="brand-subtitle">3.° BTI · Gimnasio del Saber 2026</span>
+            </div>
+          </div>
+          <p>
+            Macroproyecto socioeducativo de Aprendizaje-Servicio desarrollado en beneficio de la Escuela Básica N.º 6711 «Madre Teresa de Calcuta» (Ciudad del Este, Paraguay).
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Secciones</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#macroproyecto">Macroproyecto</a></li>
+            <li><a href="#fases">Fases y Cronograma</a></li>
+            <li><a href="#evidencias">Galería de Evidencias</a></li>
+            <li><a href="#participantes">Nómina 3.° BTI</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Información Técnica</h4>
+          <ul class="footer-links">
+            <li><a href="#resultado">Resultados y Presupuesto</a></li>
+            <li><a href="#contacto">Contacto Institucional</a></li>
+            <li><span style="color: var(--text-muted); font-size: 0.88rem;">Ciudad del Este, Paraguay</span></li>
+            <li><span style="color: var(--text-muted); font-size: 0.88rem;">Ciclo Lectivo: 2026</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Macroproyecto «Tecnología para Todos» · Colegio Gimnasio del Saber. 3.° BTI.</div>
+        <div>Desarrollado y documentado con HTML5, CSS3 y JavaScript por los estudiantes.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       BOTÓN VOLVER ARRIBA
+       ====================================================================== -->
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Volver al inicio de la página">
+    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- ======================================================================
+       MODAL DE DETALLES DE FASE (POPUP INTERACTIVO)
+       ====================================================================== -->
+  <div class="modal-backdrop" id="phaseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="phaseModalTitle">
+    <div class="modal-dialog">
+      <button class="modal-close" id="phaseModalClose" type="button" aria-label="Cerrar modal de detalles">✕</button>
+      
+      <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+        <span class="badge-tag" id="phaseModalNum">FASE 01</span>
+      </div>
+
+      <h3 id="phaseModalTitle" style="font-size: 1.6rem; font-weight: 800; color: var(--text-main); margin-bottom: 14px;">Título de la Fase</h3>
+
+      <!-- Imagen oculta de compatibilidad (no visible) -->
+      <img id="phaseModalImg" src="" alt="" style="display: none !important;" aria-hidden="true">
+
+      <p id="phaseModalDesc" style="color: var(--text-secondary); font-size: 0.98rem; line-height: 1.65; margin-bottom: 20px;">
+        Descripción detallada de la fase seleccionada.
+      </p>
+
+      <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 10px;">Actividades Desarrolladas:</h4>
+      <ul id="phaseModalActivities" style="margin-bottom: 24px; padding-left: 0;">
+        <!-- Lista dinámica -->
+      </ul>
+
+      <div style="background-color: var(--sage-light); border: 1px solid var(--sage-border); padding: 16px; border-radius: var(--radius-md);">
+        <div style="font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--sage-primary); margin-bottom: 4px;">Entregable Logrado</div>
+        <div id="phaseModalDeliverable" style="font-size: 0.95rem; font-weight: 700; color: var(--text-main);">Nombre del entregable</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       VISOR LIGHTBOX DE EVIDENCIAS
+       ====================================================================== -->
+  <div class="modal-backdrop" id="lightboxModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Visor ampliado de evidencias">
+    <div class="modal-dialog lightbox-dialog">
+      <button class="modal-close" id="lightboxClose" type="button" aria-label="Cerrar visor de evidencia" style="z-index: 20;">✕</button>
+
+      <div class="lightbox-img-wrapper">
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Ver evidencia anterior">‹</button>
+        <img id="lightboxImg" src="" alt="Evidencia ampliada">
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Ver evidencia siguiente">›</button>
+      </div>
+
+      <div class="lightbox-details">
+        <span class="badge-tag" id="lightboxCategory" style="margin-bottom: 8px;">Categoría</span>
+        <h3 id="lightboxTitle" style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); margin-bottom: 8px;">Título de Evidencia</h3>
+        <p id="lightboxDesc" style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">Descripción detallada de la evidencia.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       TOAST DE CONFIRMACIÓN
+       ====================================================================== -->
+  <div id="toastNotice" class="toast-notice" role="status" aria-live="polite">
+    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="#A8C3A0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toastMsg">Mensaje enviado exitosamente.</span>
+  </div>
+
+  <!-- Script Principal -->
+  <script src="js/script.js?v=2.4"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <!-- Fondo circular suave -->
+  <circle cx="120" cy="120" r="116" fill="#EBF4EE" stroke="#A8C3A0" stroke-width="4"/>
+  
+  <!-- Cuello -->
+  <rect x="110" y="132" width="20" height="26" rx="6" fill="#F7D6C8"/>
+  
+  <!-- Cabeza / Rostro -->
+  <circle cx="120" cy="98" r="42" fill="#F7D6C8"/>
+  
+  <!-- Cabello masculino moderno -->
+  <path d="M76 96 C74 48 166 48 164 96 C152 74 136 68 120 68 C104 68 88 74 76 96 Z" fill="#2C332D"/>
+  <path d="M78 90 C84 65 110 68 126 72 C112 76 96 82 88 94 Z" fill="#2C332D"/>
+  
+  <!-- Orejas -->
+  <circle cx="76" cy="100" r="8" fill="#F7D6C8"/>
+  <circle cx="164" cy="100" r="8" fill="#F7D6C8"/>
+  
+  <!-- Ojos y Cejas -->
+  <circle cx="104" cy="100" r="4" fill="#2C332D"/>
+  <circle cx="136" cy="100" r="4" fill="#2C332D"/>
+  <path d="M98 90 Q105 87 112 90" stroke="#2C332D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M128 90 Q135 87 142 90" stroke="#2C332D" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Sonrisa amigable -->
+  <path d="M110 118 Q120 126 130 118" stroke="#E07A5F" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Torso (Camisa verde sage temática) -->
+  <path d="M52 230 C52 170 82 152 120 152 C158 152 188 170 188 230 Z" fill="#5E8C6A"/>
+  
+  <!-- Cuello de camisa -->
+  <path d="M102 152 L120 178 L138 152" stroke="#FFFFFF" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

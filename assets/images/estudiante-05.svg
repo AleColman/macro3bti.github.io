@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <circle cx="120" cy="120" r="110" fill="#E8ECE4" stroke="#88AF92" stroke-width="4"/>
+  <!-- Head & Hair (side part) -->
+  <circle cx="120" cy="98" r="40" fill="#F7D6C8"/>
+  <path d="M78 88 C78 52 162 52 162 88 C145 74 130 72 120 72 C105 72 90 74 78 88 Z" fill="#7B749E"/>
+  <path d="M80 85 C95 65 140 68 158 85 L160 102 C155 92 145 85 130 85 C115 85 95 90 80 102 Z" fill="#7B749E"/>
+  <!-- Eyes -->
+  <circle cx="106" cy="100" r="3.5" fill="#2C332D"/>
+  <circle cx="134" cy="100" r="3.5" fill="#2C332D"/>
+  <!-- Smile -->
+  <path d="M112 118 Q120 126 128 118" stroke="#E07A5F" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Torso -->
+  <path d="M60 215 C60 162 85 152 120 152 C155 152 180 162 180 215 Z" fill="#5E8C6A"/>
+</svg>

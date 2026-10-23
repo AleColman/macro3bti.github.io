@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="f6Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3F5F7" />
+      <stop offset="100%" stop-color="#E5ECF0" />
+    </linearGradient>
+  </defs>
+  <rect width="500" height="320" rx="16" fill="url(#f6Grad)" />
+  
+  <!-- Presentation Screen / Stage -->
+  <g transform="translate(100, 45)" filter="drop-shadow(0 10px 20px rgba(45,49,46,0.07))">
+    <!-- Big projector board -->
+    <rect width="300" height="185" rx="14" fill="#FFFFFF" stroke="#E6E8E2" stroke-width="2" />
+    
+    <!-- Screen Header -->
+    <rect x="20" y="20" width="140" height="12" rx="6" fill="#5E8C6A" />
+    <rect x="20" y="38" width="90" height="8" rx="4" fill="#DCD7E9" />
+    
+    <!-- Chart representation on screen -->
+    <path d="M30 135 L80 100 L140 115 L200 70 L260 55" stroke="#E07A5F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Gradient area under curve -->
+    <path d="M30 135 L80 100 L140 115 L200 70 L260 55 L260 145 L30 145 Z" fill="#F7D6C8" opacity="0.4" />
+    
+    <!-- Data points -->
+    <circle cx="80" cy="100" r="5" fill="#E07A5F" />
+    <circle cx="140" cy="115" r="5" fill="#E07A5F" />
+    <circle cx="200" cy="70" r="5" fill="#E07A5F" />
+    <circle cx="260" cy="55" r="5" fill="#5E8C6A" />
+    
+    <!-- Screen stand -->
+    <rect x="135" y="185" width="30" height="40" fill="#CBD5E1" />
+    <rect x="110" y="222" width="80" height="8" rx="4" fill="#94A3B8" />
+  </g>
+  
+  <!-- Floating achievement badge -->
+  <g transform="translate(320, 185)" filter="drop-shadow(0 6px 14px rgba(45,49,46,0.1))">
+    <circle cx="35" cy="35" r="30" fill="#FFFFFF" stroke="#88AF92" stroke-width="2"/>
+    <circle cx="35" cy="35" r="23" fill="#E8ECE4" />
+    <!-- Star or trophy -->
+    <path d="M35 22 L38 29 L46 30 L40 35 L42 43 L35 39 L28 43 L30 35 L24 30 L32 29 Z" fill="#5E8C6A" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <circle cx="120" cy="120" r="110" fill="#FDF3EE" stroke="#E07A5F" stroke-width="4"/>
+  <!-- Head & Long Hair -->
+  <path d="M68 110 C65 50 175 50 172 110 C176 165 165 180 156 180 C150 140 148 90 120 90 C92 90 90 140 84 180 C75 180 64 165 68 110 Z" fill="#3F6349"/>
+  <!-- Face -->
+  <circle cx="120" cy="100" r="40" fill="#F7D6C8"/>
+  <!-- Bangs -->
+  <path d="M82 85 C95 68 145 68 158 85 C145 74 95 74 82 85 Z" fill="#3F6349"/>
+  <!-- Eyes -->
+  <circle cx="106" cy="98" r="3.5" fill="#2C332D"/>
+  <circle cx="134" cy="98" r="3.5" fill="#2C332D"/>
+  <!-- Smile -->
+  <path d="M112 118 Q120 126 128 118" stroke="#E07A5F" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Torso / Blouse -->
+  <path d="M60 215 C60 162 85 152 120 152 C155 152 180 162 180 215 Z" fill="#7B749E"/>
+  <path d="M104 152 Q120 170 136 152" stroke="#F4F2F9" stroke-width="2.5" fill="none"/>
+</svg>
